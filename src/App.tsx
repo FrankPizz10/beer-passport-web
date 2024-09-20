@@ -33,7 +33,6 @@ function App() {
             </a>
         </motion.div>
       </section>
-
     </>
   )
 }
