@@ -28,7 +28,7 @@ function App() {
             <a href="https://apps.apple.com/us/app/beerpassport/id6476255138" target="_blank" rel="noopener noreferrer">
                 <button>Download Apple <DiApple /></button>
             </a>
-            <a href={import.meta.env.VITE_API_KEY} download target="_blank" rel="noopener noreferrer">
+            <a href={import.meta.env.VITE_ANDROID_APK} download target="_blank" rel="noopener noreferrer">
                 <button>Download Android <DiAndroid /></button>
             </a>
         </motion.div>
