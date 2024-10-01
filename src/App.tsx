@@ -7,6 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home/>}></Route>
+      <Route path="/beers/*" element={<Home/>}></Route>
       <Route path="/apple-app-site-association" element={<Rewriter/>}></Route>
       <Route path="/.well-known/apple-app-site-association" element={<Rewriter/>}></Route>
     </Routes>
