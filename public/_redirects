@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/beers/*"
+  to = "/index.html"
+  status = 200
