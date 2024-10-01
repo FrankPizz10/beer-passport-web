@@ -18,7 +18,7 @@ const Home = () => {
                 </div>
                 <motion.h2 whileInView={{ x: [200, 0], opacity: [0, 1] }}
                         transition={{ duration: 0.8 }}>Pour Your Path.</motion.h2>
-                <div className='qrContainer'>
+                <div className='qrContainer hide-on-mobile'>
                 <motion.img src={qrCode} whileInView={{ x: [-200, 0], opacity: [0, 1] }}
                         transition={{ duration: 0.8 }}></motion.img>
                 </div>
