@@ -1,4 +1,2 @@
-[[redirects]]
-  from = "/beers/*"
-  to = "/index.html"
-  status = 200
+# Redirect all routes to index.html
+/*    /index.html   200
